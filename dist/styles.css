@@ -1,0 +1,212 @@
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.ml-2 {
+    margin-left: 1.25rem !important;
+}
+
+.mb-1 {
+    margin-bottom: 0.5rem !important;
+}
+
+.my-2 {
+    margin-top: 1.25rem !important;
+    margin-bottom: 1.25rem !important;
+}
+
+.p-1 {
+    padding: 0.75rem !important;
+}
+
+.bg-light {
+    background-color: rgb(240, 240, 240) !important;
+}
+
+.ml-1 {
+    margin-left: 0.5rem !important;
+}
+
+.mr-1 {
+    margin-right: 0.5rem !important;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.text-green {
+    color: rgb(111, 164, 67) !important;
+}
+
+.text-bold {
+    font-weight: bold !important;
+}
+
+.enrolment-inner-table-row {
+    /* display: flex; */
+    /* padding:    5px 0 0 3%; */
+    /* padding: 0.7% 0 0.7% 3%; */
+    /* background: rgb(242,242,242); */
+    display: grid;
+    grid-template-columns: repeat(6, 4.2% 20.4% 18.8% 16.5% 23.8%);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.enrolment-inner-table-row div {
+    width: 17.3% !important;
+}
+
+.enrolment-inner-table-row div:nth-child(1) {
+    width: 21% !important;
+}
+
+.enrolment-inner-table-row div:nth-child(2) {
+    width: 19.6% !important;
+}
+
+.enrolment-inner-table-row div:nth-child(4) {
+    width: 25% !important;
+}
+
+.enrolment-inner-table-row div {
+    width: 100% !important;
+}
+
+.enrolment-inner-table-row div:nth-child(1n) {
+    width: 100% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.bridge-pay-col {
+    padding: 8px !important;
+    padding-left: 12px !important;
+}
+
+.p-1 {
+    padding: 0.5rem !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.mt-2 {
+    margin-top: 1rem !important;
+}
+
+.bridge-pay-expand-arrow {
+    width: 50px !important;
+}
+
+.row-container-bridgepay {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-container-bridgepay > div:nth-child(2) {
+    text-align: right;
+}
+
+/* ebb styles */
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.detail-view-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.detail-view-container {
+    display: flex;
+    margin-right: 20px;
+    padding: 0.3rem 0;
+}
+
+.detail-view-heading {
+    min-width: 180px;
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+}
+
+.detail-view-data {
+    min-width: 180px;
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+}
+
+.detail-view-margin-left {
+    margin-left: 12px;
+}
+
+.ebb-program-table {
+    background-color: transparent;
+    /* margin-top: 3rem !important; */
+}
+
+.ebb-program-table-row {
+    background-color: rgb(249, 248, 247) !important;
+    color: rgb(114, 114, 114);
+    font-weight: 500;
+}
+
+.ebb-program-table-wrapper .ebb-program-table-row .ant-table-cell {
+    padding: auto !important;
+    padding-left: 15px !important;
+}
+
+.search-input-wrapper {
+    max-width: 170px !important;
+}
+
+.search-input-container {
+    margin-top: 2rem !important;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem !important;
+}
+
+.ebb-range-picker {
+    margin-left: 5px !important;
+    border-color: rgb(111, 164, 67) !important;
+}
+
+.ebb__sidebar_wrapper_2 {
+    background-color: transparent !important;
+}
+
+.sidebar-dropdown {
+    color: rgb(114, 114, 114);
+    font-weight: 600;
+}
+
+.sidebar-dropdown-container {
+    margin-bottom: 1rem !important;
+}
+
+.ebb-error {
+    color: #ca0b00;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.ebb-heading-container {
+    position: relative;
+    background: rgb(249, 248, 247);
+    padding: 0 0.3rem;
+    top: -1.2rem;
+    left: -1rem;
+}
